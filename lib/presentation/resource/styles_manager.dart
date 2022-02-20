@@ -10,31 +10,31 @@ TextStyle _getTextStyle(
 TextStyle getRegularStyle(
     {double fontSize: FontSize.s12, required Color color}) {
   return _getTextStyle(
-      fontSize, FontConstants.fonntFamily, FontWeightManager.regular, color);
+      fontSize, FontConstants.fontFamily, FontWeightManager.regular, color);
 }
 
 //medium
 TextStyle getMediumStyle(
     {double fontSize: FontSize.s12, required Color color}) {
   return _getTextStyle(
-      fontSize, FontConstants.fonntFamily, FontWeightManager.medium, color);
+      fontSize, FontConstants.fontFamily, FontWeightManager.medium, color);
 }
 
 //semiBold
 TextStyle getSemiBoldStyle(
     {double fontSize: FontSize.s12, required Color color}) {
   return _getTextStyle(
-      fontSize, FontConstants.fonntFamily, FontWeightManager.semiBold, color);
+      fontSize, FontConstants.fontFamily, FontWeightManager.semiBold, color);
 }
 
 //light
 TextStyle getLightStyle({double fontSize: FontSize.s12, required Color color}) {
   return _getTextStyle(
-      fontSize, FontConstants.fonntFamily, FontWeightManager.light, color);
+      fontSize, FontConstants.fontFamily, FontWeightManager.light, color);
 }
 
 //bold
 TextStyle getBoldStyle({double fontSize: FontSize.s12, required Color color}) {
   return _getTextStyle(
-      fontSize, FontConstants.fonntFamily, FontWeightManager.bold, color);
+      fontSize, FontConstants.fontFamily, FontWeightManager.bold, color);
 }
