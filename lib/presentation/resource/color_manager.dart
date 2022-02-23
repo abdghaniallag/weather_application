@@ -3,14 +3,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class ColorManager {
-  static Color primary = HexColor.fromHex('#A5A7F9');
+  static Color primary = HexColor.fromHex('#00013B');
   static Color secondary = HexColor.fromHex('#FFC32D');
   static Color darkGray = HexColor.fromHex('#525252');
   static Color gray = HexColor.fromHex('#737477');
   static Color lightGray = HexColor.fromHex('#9E9E9E');
   static Color primaryOpacity70 = HexColor.fromHex('#B3ED9728');
 
-  static Color darkPrimary = HexColor.fromHex('#00013B');
+  static Color darkPrimary = HexColor.fromHex('#A5A7F9');
   static Color gray1 = HexColor.fromHex('#707070');
   static Color gray2 = HexColor.fromHex('#797979');
   static Color white = HexColor.fromHex('#FFFFFF');

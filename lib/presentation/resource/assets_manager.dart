@@ -1,4 +1,4 @@
-const String IMAGE_PATH = 'assets/images';
+const String IMAGE_PATH = 'assets/image';
 const String JSON_PATH = 'assets/json';
 
 class ImageAssets {
@@ -17,5 +17,6 @@ class ImageAssets {
 class JsonAssets {
   static const String loading = '$JSON_PATH/loading.json';
   static const String error = '$JSON_PATH/error.json';
-  static const String notFound = '$JSON_PATH/not_found.json'; 
-  static const String empty = '$JSON_PATH/empty.json';}
+  static const String notFound = '$JSON_PATH/not_found.json';
+  static const String empty = '$JSON_PATH/empty.json';
+}

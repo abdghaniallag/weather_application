@@ -30,26 +30,28 @@ ThemeData getAplicationTheme() {
     ),
 // button theme
     buttonTheme: ButtonThemeData(
-        shape: StadiumBorder(),
+        shape: const StadiumBorder(),
         disabledColor: ColorManager.gray1,
-        buttonColor: ColorManager.primary,
+        buttonColor: ColorManager.secondary,
         splashColor: ColorManager.primaryOpacity70),
+
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
-        textStyle: getRegularStyle(color: ColorManager.white),
-        primary: ColorManager.primary,
+        textStyle: getRegularStyle(color: ColorManager.black),
+        primary: ColorManager.secondary,
         shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(AppSize.s12)),
       ),
     ),
 // Text theme
     textTheme: TextTheme(
-      headline1: getSemiBoldStyle(
-          color: ColorManager.darkGray, fontSize: FontSize.s16),
+      headline1:
+          getSemiBoldStyle(color: ColorManager.black, fontSize: FontSize.s18),
       subtitle1:
-          getMediumStyle(color: ColorManager.lightGray, fontSize: FontSize.s14),
-     subtitle2:
-          getMediumStyle(color: ColorManager.primary, fontSize: FontSize.s14),
+          getMediumStyle(color: ColorManager.white, fontSize: FontSize.s18),
+      subtitle2:
+          getMediumStyle(color: ColorManager.secondary, fontSize: FontSize.s18),
+      button: getMediumStyle(color: ColorManager.black, fontSize: FontSize.s23),
       caption: getRegularStyle(color: ColorManager.gray1),
       bodyText1: getRegularStyle(color: ColorManager.gray),
     ),
